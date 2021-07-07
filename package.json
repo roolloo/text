@@ -1,42 +1,58 @@
 {
-  "name": "ladno",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "core-js": "^3.6.5",
-    "vue": "^3.0.0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "@vue/compiler-sfc": "^3.0.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.0"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "babel-eslint"
-    },
-    "rules": {}
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
-}
+	"name": "exam",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+	  "serve": "vue-cli-service serve",
+	  "build": "vue-cli-service build",
+	  "lint": "vue-cli-service lint"
+	},
+	"dependencies": {
+	  "animate.css": "^4.1.1",
+	  "aos": "^2.3.4",
+	  "aos-vue": "^0.0.5",
+	  "core-js": "^3.6.5",
+	  "navigation": "^5.5.0",
+	  "normalize": "^0.3.1",
+	  "pagination": "^0.4.6",
+	  "parallax": "^0.0.0",
+	  "scrollbar": "^0.1.12",
+	  "swiper": "^6.7.0",
+	  "virtual": "^0.2.0",
+	  "vue": "^3.0.0",
+	  "vue-scrollto": "^2.20.0",
+	  "vue-slick": "^1.1.16",
+	  "vue-yandex-maps": "^0.10.11"
+	},
+	"devDependencies": {
+	  "@vue/cli-plugin-babel": "~4.5.0",
+	  "@vue/cli-plugin-eslint": "~4.5.0",
+	  "@vue/cli-service": "~4.5.0",
+	  "@vue/compiler-sfc": "^3.0.0",
+	  "babel-eslint": "^10.1.0",
+	  "eslint": "^6.7.2",
+	  "eslint-plugin-vue": "^7.0.0",
+	  "node-sass": "^6.0.0",
+	  "sass-loader": "^10.2.0"
+	},
+	"eslintConfig": {
+	  "root": true,
+	  "env": {
+		 "node": true
+	  },
+	  "extends": [
+		 "plugin:vue/vue3-essential",
+		 "eslint:recommended"
+	  ],
+	  "parserOptions": {
+		 "parser": "babel-eslint"
+	  },
+	  "rules": {}
+	},
+	"browserslist": [
+	  "> 1%",
+	  "last 2 versions",
+	  "not dead"
+	]
+ }
+ 
